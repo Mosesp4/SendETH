@@ -1,41 +1,42 @@
 import React from "react";
 import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 
+
 const ContactUs = () => {
   return (
     <div className="py-8 px-4  gradient-bg-welcome">
-      <h2 className="text-3xl font-bold text-center mb-8 text-white">Contact Us</h2>
-      <div className="flex justify-center">
-        <div className="w-full max-w-sm mt-8 ">
-          <div className="p-6 rounded-lg">
+      <h2 className="text-3xl font-bold text-center mb-9 text-white">Contact Us</h2>
+      <div className="flex flex-col lg:flex-row justify-center">
+        <div className="w-full max-w-sm lg:mr-8">
+          <div className="p-6 rounded-lg ">
             <h3 className="text-lg font-bold text-orange-400 mb-4">Our Address</h3>
-            <p className="text-white">
+            <p className="text-white-700">
               <FaMapMarkerAlt className="text-indigo-500 mr-2 mb-1" />
               123 Main St, Suite 200, Anytown Abuja, Nigeria
-            </p> 
+            </p>
             <br />
-            <p className="text-white">
+            <p className="text-white-700">
               <FaPhone className="text-indigo-500 mr-2 mb-1" />
-              (+234) 081-0234-4203
+              (+234) 081 0234 4203
             </p>
             <br />
             <p className="text-white-700">
               <FaEnvelope className="text-indigo-500 mr-2 mb-1" />
-              info@example.com
+              echelamoses@gmail.com
             </p>
           </div>
         </div>
         <div className="w-full max-w-sm">
-          <form 
+          <form
             action="https://formspree.io/f/mayznayn"
             method="POST"
             className="blue-glassmorphism p-6 rounded-lg">
             <div className="mb-4">
-              <label className="block text-white-700 font-medium mb-2" htmlFor="name">
+              <label className="block text-White-700 font-medium mb-2" htmlFor="name">
                 Name
               </label>
               <input
-                className="border border-gray-400 p-2 rounded-lg w-full text-black"
+                className="border border-white-400 p-2 rounded-lg w-full text-black"
                 type="text"
                 id="name"
                 name="name"
@@ -52,7 +53,6 @@ const ContactUs = () => {
                 id="email"
                 name="email"
                 placeholder="info@example.com"
-                
               />
             </div>
             <div className="mb-4">
@@ -73,6 +73,7 @@ const ContactUs = () => {
           </form>
         </div>
       </div>
+
     </div>
   );
 };

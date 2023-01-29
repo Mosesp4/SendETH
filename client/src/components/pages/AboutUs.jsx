@@ -46,9 +46,10 @@ const AboutUs = () => {
                         <h3 className="text-lg font-medium text-center mb-2">ECHELA CHRISTOPHER MOSES</h3>
                         <p className="text-gray-700 text-center px-8">
                             An experienced front-end developer with a focus on user experience. He is responsible for 
-                            building the UI and user interactions.  He is also an entry-level blockchain developer with 
-                            a focus on smart contract continue from where you stop and security. He is responsible for 
+                            building the UI and user interactions of this web app.  He is also an entry-level blockchain developer with 
+                          focus on smart contract and security. He is responsible for 
                             implementing the smart contract functionality and ensuring the security of the Ethereum sending app.
+                            As at the time of developing this app, Echela Moses is a solidity developer intern with Grandida LLC.
                         </p>
                     </div>
                    
