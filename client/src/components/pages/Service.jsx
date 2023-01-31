@@ -2,7 +2,7 @@ import React from "react";
 
 const Service = () => {
   return (
-    <div className="bg-white py-8 px-4 rounded-lg shadow-md">
+    <div className="bg-white py-8 px-4 rounded-lg">
       <h2 className="text-2xl font-bold text-center mb-4 m-4 text-red-600">Our Services</h2>
       <div className="md:grid md:grid-cols-2 md:gap-4 m w-full">
         <div className="bg-orange-400 rounded-lg p-4 white-glassmorphism">
@@ -72,7 +72,7 @@ const Service = () => {
         </div>
       </div>
     </div>
-  );
+  )
 };
 
 export default Service;

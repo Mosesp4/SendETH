@@ -42,7 +42,7 @@ const Welcome = () => {
         ">
             <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4 ">
                 <div className="flex flex-1 justify-start flex-col mf:mr-10">
-                    <hi className="text-3xl sm:text-5xl text-white text-gradient py-1">
+                    <hi className="text-6xl sm:text-6xl font-bold text-gradient py-1">
                         Send Ethereum <br /> anywhere & anytime
                     </hi>
                     <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">

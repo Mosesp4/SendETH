@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex md:justify-center justify-between items-center p-3 gradient-bg-welcome ">
-      <div className="md:flex-[0.1] flex-initial justify-center items-center">
+      <div className="md:flex-[0.5] flex-initial justify-center items-center">
         <Link to={'/'}>
         <img src={logo} alt="logo" className="w-20 cursor-pointer" />
         </Link>
@@ -23,7 +23,7 @@ const Navbar = () => {
           <Link to= {`/${item.toLowerCase()}`}>{item}</Link>
           </li>
         ))}
-        <Link to={'/contact'} className=" border py-1 px-5 mx-4 cursor-pointer hover:bg-gradient-to-r from-red-500 to-orange-500">
+        <Link to={'/contact'} className=" border rounded-full py-1 px-5 mx-4 cursor-pointer hover:bg-gradient-to-r from-red-500 to-orange-500">
           Contact Us
         </Link>
         

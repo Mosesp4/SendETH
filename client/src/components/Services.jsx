@@ -36,8 +36,8 @@ const Services = () => {
                   color="bg-[#2952E3]"
                   title="Security Guaranteed"
                   icon={<BsShieldFillCheck fontSize={21} className='text-white' />}
-                  subtitle="Security is guaranteed. We always maintain privacy and maintaing the 
-                  quality of our service."
+                  subtitle="Security is guaranteed. We always maintain privacy and 
+                  maintaining the quality of our service."
                 />
 
                 <ServiceCard
@@ -52,7 +52,8 @@ const Services = () => {
                   color="bg-[#f84550]"
                   title="Fastest Transactions"
                   icon={<RiHeart2Fill fontSize={21} className='text-white' />}
-                  subtitle="Security is guaranteed. We always maintain privacy and maintaing the quality of our product."
+                  subtitle=" Gas is the fee required to execute a transaction on the Ethereum network. 
+                  By optimizing the gas usage of your transactions, lower  fees is required to make transactions faster to process.."
                 />
             </div>
 

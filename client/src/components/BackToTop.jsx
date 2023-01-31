@@ -27,7 +27,7 @@ function BackToTopButton() {
       {showButton && (
         <button
           type="button"
-          className="fixed bottom-0 right-0 m-4 p-1 rounded-lg bg-red-500 text-white hover:bg-red-600 hover:shadow-md"
+          className="fixed bottom-0 right-0 m-4 p-1 rounded-lg bg-red-900 text-white hover:bg-red-600 hover:shadow-md"
           onClick={handleClick}
         >
           Top
