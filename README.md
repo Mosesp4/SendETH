@@ -1,5 +1,5 @@
 # SendETH
-Grandida LLC Intern Solo Project
+
 ![logo2](https://user-images.githubusercontent.com/48920663/215684079-41e033bd-eb56-422c-8f62-4ec9f18587cc.png)
 
 
